@@ -1,2 +1,2 @@
 # python_intermidiate_training
-OOP
+Exercices of OOP, decoratores, exceptions, serializers, lambda,
