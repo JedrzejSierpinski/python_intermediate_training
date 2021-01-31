@@ -11,3 +11,4 @@ class Cat:
 
     def make_sound(self) -> str:
         return f'Name is {self.name} sound is {self.sound}'
+
