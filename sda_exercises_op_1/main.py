@@ -14,13 +14,19 @@ def main():
     cats.append(cat_object_3)
     cats.append(cat_object_4)
 
-    for cat in cats:
-        sound = cat.make_sound()
-        print(sound)
+    # for cat in cats:
+    #     sound = cat.make_sound()
+    #     print(sound)
 
+    cat_object.eat_mouse()
+    cat_object.eat_mouse()
+    cat_object.eat_mouse()
+
+    print("Teraz będzie żarł drugi kot")
+
+    cat_object_2.eat_mouse()
 
 # zmienna sound jest stringiem
-
 
 if __name__ == "__main__":
     main()
