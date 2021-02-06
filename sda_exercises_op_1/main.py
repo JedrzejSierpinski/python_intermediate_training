@@ -50,6 +50,9 @@ def main():
     print(circle1.getArea())
     print(triandgle1.getArea())
     print(rectangle1.getArea())
+    result = Figures.check_area(100.00, [triandgle1, rectangle1])
+    print(result)
+    print(Figures.count_area([triandgle1, rectangle1]))
 
 
 if __name__ == "__main__":
