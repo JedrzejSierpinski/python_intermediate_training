@@ -30,3 +30,12 @@ def case_3(number: int, divisor: int) -> float:
         # result = float(sys.maxsize)
     return result
 
+
+def case_4(dictionary: dict):
+    key = 'items'
+    try:
+        items: list = dictionary[key]
+        for item in items:
+            print(item)
+    except KeyError as key_error:
+        print(f'Key {key} not found, more information{key_error.args}')
