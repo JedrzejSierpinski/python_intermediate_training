@@ -1,4 +1,7 @@
 import pytest
+
+# pamiętaj aby w twoim package znajdował się plik __init__.py
+
 from python_intermidiate_training.sda_exercises_op_1.Object_Class import Figures, Circle, Triangle, Rectangle
 
 

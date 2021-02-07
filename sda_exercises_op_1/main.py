@@ -37,22 +37,22 @@ from python_intermidiate_training.sda_exercises_op_1.Object_Class import *
 # zmienna sound jest stringiem
 
 def main():
-    circle1 = Circle(5)
-    circle2 = Circle(12)
-    circle3 = Circle(12)
-    triandgle1 = Triangle(7, 3)
-    triandgle2 = Triangle(10, 8)
-    triandgle3 = Triangle(5, 12)
-    rectangle1 = Rectangle(4, 8)
-    rectangle2 = Rectangle(14, 25)
-    rectangle3 = Rectangle(10, 2)
-
-    print(circle1.getArea())
-    print(triandgle1.getArea())
-    print(rectangle1.getArea())
-    result = Figures.check_area(100.00, [triandgle1, rectangle1])
-    print(result)
-    print(Figures.count_area([triandgle1, rectangle1]))
+#     # circle1 = Circle(5)
+#     # circle2 = Circle(12)
+#     # circle3 = Circle(12)
+#     # triandgle1 = Triangle(7, 3)
+#     # triandgle2 = Triangle(10, 8)
+#     # triandgle3 = Triangle(5, 12)
+#     # rectangle1 = Rectangle(4, 8)
+#     # rectangle2 = Rectangle(14, 25)
+#     # rectangle3 = Rectangle(10, 2)
+#     #
+#     # print(circle1.getArea())
+#     # print(triandgle1.getArea())
+#     # print(rectangle1.getArea())
+#     # result = Figures.check_area(100.00, [triandgle1, rectangle1])
+#     # print(result)
+#     # print(Figures.count_area([triandgle1, rectangle1]))
 
 
 if __name__ == "__main__":
