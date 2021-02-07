@@ -1,4 +1,4 @@
-from python_intermidiate_training.exceptions_1.exercises_1 import case_1, case_2, case_3, case_4
+from python_intermidiate_training.exceptions_1.exercises_1 import case_1, case_2, case_3, case_4, case_4_v_2
 
 
 def main():
@@ -14,9 +14,9 @@ def main():
     # print(result)
     # print(f'Finish')
     dictionary = {
-        "items": ['butter', 'bread']
+        "rzeczy": ['butter', 'bread']
     }
-    case_4(dictionary)
+    case_4_v_2(dictionary)
 
 if __name__ == '__main__':
     main()

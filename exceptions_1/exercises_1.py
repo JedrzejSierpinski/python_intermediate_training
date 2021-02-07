@@ -39,3 +39,11 @@ def case_4(dictionary: dict):
             print(item)
     except KeyError as key_error:
         print(f'Key {key} not found, more information{key_error.args}')
+
+def case_4_v_2(dictionary: dict):
+    key = 'items'
+    items: list = dictionary.get(key, [])
+    for item in items:
+        print(item)
+    if not items:
+        print(f'Key does not exist or list is empty')
