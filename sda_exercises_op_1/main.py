@@ -37,6 +37,7 @@ from python_intermidiate_training.sda_exercises_op_1.Object_Class import *
 # zmienna sound jest stringiem
 
 def main():
+    pass
 #     # circle1 = Circle(5)
 #     # circle2 = Circle(12)
 #     # circle3 = Circle(12)

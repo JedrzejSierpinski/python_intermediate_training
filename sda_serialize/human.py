@@ -14,14 +14,14 @@ class Human():
 
 
 
-def json_to_file(humans:list):
-    for human in humans
-        human._dict = human.convert_to_dict()
-        human._json = json.dump()
-    ]
-
-    try:
-        with open("./training.json", "w") as fd:
-            json.dump(json_list, fd, indent=2)
-    except (IOError, Exception) as e:
-        print(f'Problem with writing to file, more info: {e.args}')
+# def json_to_file(humans:list):
+#     for human in humans
+#         human._dict = human.convert_to_dict()
+#         human._json = json.dump()
+#     ]
+#
+#     try:
+#         with open("./training.json", "w") as fd:
+#             json.dump(json_list, fd, indent=2)
+#     except (IOError, Exception) as e:
+#         print(f'Problem with writing to file, more info: {e.args}')
